@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Verma & Associates | Criminal Lawyer Bhopal | Free Consultation</title>
+<meta name="description" content="Bhopal ke sabse trusted criminal lawyers. Bail, FIR Quashing, NDPS cases. Free consultation: +91 98930 XXXXX">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+:root{
+  --navy:#0D1B2A;--navy2:#142233;--navy3:#1C2E42;
+  --red:#C0392B;--red2:#E74C3C;
+  --cream:#F2EDE4;--muted:#7A8A99;--gold:#D4A847;
+}
+body{font-family:'Outfit',sans-serif;background:var(--navy);color:var(--cream);overflow-x:hidden;}
+
+/* NAV */
+nav{position:fixed;top:0;left:0;right:0;z-index:200;padding:16px 48px;display:flex;align-items:center;justify-content:space-between;background:rgba(13,27,42,0.97);border-bottom:1px solid rgba(192,57,43,0.25);}
+.logo{font-family:'Playfair Display',serif;font-size:20px;font-weight:700;color:var(--cream);}
+.logo span{color:var(--red2);}
+.logo small{display:block;font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);font-family:'Outfit',sans-serif;}
+.nav-links{display:flex;gap:28px;list-style:none;}
+.nav-links a{color:var(--muted);text-decoration:none;font-size:13px;letter-spacing:.08em;text-transform:uppercase;font-weight:500;transition:color .3s;}
+.nav-links a:hover{color:var(--red2);}
+.nav-cta{background:var(--red);color:white;border:none;padding:10px 24px;font-family:'Outfit',sans-serif;font-size:12px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;transition:all .3s;}
+.nav-cta:hover{background:var(--red2);}
+
+/* HERO */
+.hero{min-height:100vh;display:grid;grid-template-columns:55% 45%;position:relative;overflow:hidden;background:linear-gradient(135deg,#0D1B2A 0%,#142233 100%);}
+.hero::before{content:'';position:absolute;inset:0;background-image:repeating-linear-gradient(90deg,rgba(192,57,43,0.03) 0,rgba(192,57,43,0.03) 1px,transparent 1px,transparent 80px),repeating-linear-gradient(0deg,rgba(192,57,43,0.03) 0,rgba(192,57,43,0.03) 1px,transparent 1px,transparent 80px);}
+.hero-left{padding:130px 48px 80px;display:flex;flex-direction:column;justify-content:center;position:relative;z-index:2;}
+.badge{display:inline-flex;align-items:center;gap:8px;background:rgba(192,57,43,0.12);border:1px solid rgba(192,57,43,0.3);padding:7px 16px;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--red2);font-weight:600;margin-bottom:28px;width:fit-content;}
+.badge::before{content:'●';font-size:8px;animation:blink 1.5s infinite;}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:.3}}
+.hero-title{font-family:'Playfair Display',serif;font-size:clamp(40px,5vw,70px);font-weight:900;line-height:1.05;margin-bottom:6px;}
+.hero-title .it{font-style:italic;font-weight:400;color:var(--red2);display:block;}
+.hdiv{width:72px;height:3px;background:linear-gradient(to right,var(--red),transparent);margin:22px 0;}
+.hero-sub{font-size:15px;color:var(--muted);line-height:1.85;max-width:430px;margin-bottom:40px;font-weight:300;}
+.hero-sub strong{color:var(--cream);font-weight:500;}
+.hbtns{display:flex;gap:14px;align-items:center;flex-wrap:wrap;}
+.btn-r{background:var(--red);color:white;padding:14px 32px;border:none;font-family:'Outfit',sans-serif;font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;transition:all .3s;text-decoration:none;display:inline-block;}
+.btn-r:hover{background:var(--red2);transform:translateY(-2px);box-shadow:0 14px 36px rgba(192,57,43,0.3);}
+.btn-o{background:transparent;color:var(--cream);padding:13px 28px;border:1px solid rgba(242,237,228,0.3);font-family:'Outfit',sans-serif;font-size:13px;font-weight:500;letter-spacing:.08em;text-transform:uppercase;cursor:pointer;transition:all .3s;text-decoration:none;display:inline-block;}
+.btn-o:hover{border-color:var(--red);color:var(--red2);}
+.trust{margin-top:44px;display:flex;gap:24px;align-items:center;}
+.tn{font-family:'Playfair Display',serif;font-size:32px;font-weight:700;color:var(--red2);line-height:1;}
+.tl{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-top:3px;}
+.tsep{width:1px;height:40px;background:rgba(192,57,43,0.3);}
+.hero-right{position:relative;overflow:hidden;}
+.hero-right img{width:100%;height:100%;object-fit:cover;filter:grayscale(40%) contrast(1.1);opacity:.3;}
+.hero-right::before{content:'';position:absolute;inset:0;background:linear-gradient(to right,var(--navy) 0%,transparent 40%),linear-gradient(to top,var(--navy) 0%,transparent 50%);z-index:1;}
+.rov{position:absolute;z-index:2;top:50%;right:32px;transform:translateY(-50%);background:rgba(13,27,42,0.9);border:1px solid rgba(192,57,43,0.25);padding:26px 22px;width:220px;}
+.rot{font-family:'Playfair Display',serif;font-size:12px;font-style:italic;color:var(--muted);margin-bottom:12px;border-bottom:1px solid rgba(192,57,43,0.2);padding-bottom:10px;}
+.roi{display:flex;align-items:center;gap:10px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,0.04);font-size:12px;color:#E8E0D4;}
+.roi-ic{color:var(--red2);font-size:13px;}
+.rof{margin-top:12px;background:rgba(192,57,43,0.1);border:1px solid rgba(192,57,43,0.3);padding:10px;text-align:center;font-size:11px;color:var(--red2);font-weight:600;letter-spacing:.08em;}
+
+/* TICKER */
+.ticker{background:var(--red);padding:10px 0;overflow:hidden;white-space:nowrap;}
+.tick-in{display:inline-flex;gap:52px;animation:tick 20s linear infinite;}
+@keyframes tick{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+.tick-item{font-size:11px;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:rgba(255,255,255,.9);}
+.tick-item::after{content:' ⚖ ';}
+
+/* SECTIONS */
+.sec{padding:88px 48px;}
+.sl{font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--red2);font-weight:600;display:flex;align-items:center;gap:12px;margin-bottom:14px;}
+.sl::before{content:'';display:block;width:28px;height:2px;background:var(--red);}
+.st{font-family:'Playfair Display',serif;font-size:clamp(28px,3.2vw,46px);font-weight:700;line-height:1.15;margin-bottom:52px;}
+.st em{font-style:italic;color:var(--red2);font-weight:400;}
+
+/* SERVICES */
+.sg{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:rgba(192,57,43,0.08);}
+.sc{background:var(--navy2);padding:38px 30px;position:relative;overflow:hidden;cursor:pointer;transition:all .4s;}
+.sc::after{content:'';position:absolute;left:0;bottom:0;width:0;height:3px;background:var(--red);transition:width .4s;}
+.sc:hover{background:var(--navy3);transform:translateY(-4px);}
+.sc:hover::after{width:100%;}
+.sn{font-family:'Playfair Display',serif;font-size:52px;font-weight:900;color:rgba(192,57,43,0.07);line-height:1;margin-bottom:12px;}
+.si{font-size:28px;margin-bottom:14px;}
+.sname{font-family:'Playfair Display',serif;font-size:20px;font-weight:700;margin-bottom:10px;}
+.sdesc{font-size:13px;color:var(--muted);line-height:1.8;font-weight:300;}
+
+/* WHY */
+.why{background:var(--navy2);}
+.wg{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:center;}
+.wl{position:relative;height:440px;}
+.wl img{width:100%;height:100%;object-fit:cover;filter:grayscale(50%) sepia(20%);opacity:.6;position:relative;z-index:1;}
+.wl::before{content:'';position:absolute;top:-12px;left:-12px;width:100%;height:100%;border:2px solid rgba(192,57,43,0.35);z-index:0;}
+.wp-list{display:flex;flex-direction:column;gap:16px;margin-bottom:32px;}
+.wp{display:flex;gap:16px;align-items:flex-start;padding:16px 20px;background:rgba(192,57,43,0.05);border-left:3px solid var(--red);transition:background .3s;}
+.wp:hover{background:rgba(192,57,43,0.1);}
+.wp-ic{width:36px;height:36px;flex-shrink:0;background:rgba(192,57,43,0.12);border:1px solid rgba(192,57,43,0.3);display:flex;align-items:center;justify-content:center;font-size:16px;}
+.wp-t{font-size:14px;font-weight:600;margin-bottom:4px;color:var(--cream);}
+.wp-d{font-size:13px;color:var(--muted);line-height:1.7;font-weight:300;}
+
+/* CASES */
+.cg{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;}
+.cc{background:var(--navy2);border:1px solid rgba(192,57,43,0.12);padding:28px 24px;transition:all .3s;}
+.cc:hover{border-color:rgba(192,57,43,0.4);background:var(--navy3);}
+.cv{display:inline-block;background:rgba(34,139,34,0.15);border:1px solid rgba(34,139,34,0.3);color:#5cb85c;font-size:10px;letter-spacing:.12em;text-transform:uppercase;padding:4px 10px;font-weight:600;margin-bottom:14px;}
+.ct{font-family:'Playfair Display',serif;font-size:18px;font-weight:700;margin-bottom:10px;line-height:1.3;}
+.cd{font-size:13px;color:var(--muted);line-height:1.7;font-weight:300;margin-bottom:16px;}
+.cm2{display:flex;justify-content:space-between;font-size:11px;color:rgba(122,138,153,.7);border-top:1px solid rgba(192,57,43,0.1);padding-top:12px;}
+
+/* TESTIMONIALS */
+.tw{background:var(--navy2);}
+.tg{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;}
+.tc2{background:var(--navy);padding:30px 24px;border:1px solid rgba(192,57,43,0.1);position:relative;overflow:hidden;}
+.tq{font-family:'Playfair Display',serif;font-size:88px;line-height:.8;color:rgba(192,57,43,0.07);position:absolute;top:8px;right:14px;}
+.ts2{color:var(--gold);font-size:12px;letter-spacing:2px;margin-bottom:12px;}
+.tt{font-size:13px;color:var(--muted);line-height:1.85;font-style:italic;font-weight:300;margin-bottom:20px;}
+.ta{display:flex;align-items:center;gap:12px;}
+.tav{width:40px;height:40px;border-radius:50%;background:linear-gradient(135deg,var(--red),#8B1A1A);display:flex;align-items:center;justify-content:center;font-family:'Playfair Display',serif;font-size:16px;font-weight:700;color:white;}
+.tan{font-size:14px;font-weight:600;color:var(--cream);margin-bottom:2px;}
+.tat{font-size:10px;color:var(--red2);letter-spacing:.1em;text-transform:uppercase;}
+
+/* CONTACT */
+.cw{display:grid;grid-template-columns:1fr 1.2fr;}
+.cl{background:var(--red);padding:68px 48px;display:flex;flex-direction:column;justify-content:center;position:relative;overflow:hidden;}
+.cl::before{content:'⚖';position:absolute;right:-10px;bottom:-30px;font-size:220px;opacity:.06;transform:rotate(-15deg);}
+.clt{font-family:'Playfair Display',serif;font-size:32px;font-weight:900;color:white;line-height:1.15;margin-bottom:22px;}
+.clt em{font-style:italic;font-weight:400;}
+.cls{font-size:14px;color:rgba(255,255,255,.75);line-height:1.8;margin-bottom:36px;}
+.cd2{display:flex;gap:14px;align-items:flex-start;margin-bottom:18px;}
+.ci2{width:36px;height:36px;flex-shrink:0;background:rgba(255,255,255,.15);display:flex;align-items:center;justify-content:center;font-size:14px;}
+.cdl{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:rgba(255,255,255,.6);margin-bottom:3px;}
+.cdv{font-size:14px;color:white;font-weight:500;}
+.cr{background:var(--navy2);padding:68px 48px;}
+.frt{font-family:'Playfair Display',serif;font-size:26px;font-weight:700;margin-bottom:6px;}
+.frs{font-size:13px;color:var(--muted);margin-bottom:28px;}
+.fg{margin-bottom:14px;}
+.fg label{display:block;font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin-bottom:7px;}
+.fg input,.fg textarea,.fg select{width:100%;background:var(--navy);border:1px solid rgba(192,57,43,0.2);color:var(--cream);padding:12px 16px;font-family:'Outfit',sans-serif;font-size:14px;outline:none;transition:border-color .3s;}
+.fg input:focus,.fg textarea:focus,.fg select:focus{border-color:var(--red);}
+.fg textarea{height:100px;resize:none;}
+.fg select option{background:var(--navy2);}
+.fr2{display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+.bsub{width:100%;background:var(--red);color:white;border:none;padding:15px;font-family:'Outfit',sans-serif;font-size:13px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;cursor:pointer;transition:all .3s;margin-top:4px;}
+.bsub:hover{background:var(--red2);}
+.fn{font-size:11px;color:var(--muted);text-align:center;margin-top:10px;}
+
+/* WHATSAPP BUTTON */
+.wa-btn{position:fixed;bottom:100px;right:28px;z-index:400;background:#25D366;color:white;border:none;border-radius:50px;padding:12px 20px;font-family:'Outfit',sans-serif;font-size:13px;font-weight:600;cursor:pointer;box-shadow:0 6px 24px rgba(37,211,102,0.4);transition:all .3s;text-decoration:none;display:flex;align-items:center;gap:8px;}
+.wa-btn:hover{transform:translateY(-2px);box-shadow:0 10px 32px rgba(37,211,102,0.5);}
+
+/* FOOTER */
+footer{background:#080F17;border-top:2px solid rgba(192,57,43,0.2);padding:40px 48px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px;}
+.fl{font-family:'Playfair Display',serif;font-size:20px;font-weight:700;color:var(--cream);}
+.fl span{color:var(--red2);}
+.fc{font-size:12px;color:var(--muted);text-align:center;}
+.flinks{display:flex;gap:22px;list-style:none;}
+.flinks a{color:var(--muted);text-decoration:none;font-size:12px;letter-spacing:.06em;transition:color .3s;}
+.flinks a:hover{color:var(--red2);}
+
+/* CHATBOT */
+.cbt{position:fixed;bottom:28px;right:28px;z-index:500;}
+.ctgl{width:54px;height:54px;background:var(--red);border:none;border-radius:50%;font-size:20px;cursor:pointer;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 24px rgba(192,57,43,0.5);transition:all .3s;animation:cp 2.5s infinite;color:white;}
+@keyframes cp{0%,100%{box-shadow:0 6px 24px rgba(192,57,43,.5)}50%{box-shadow:0 6px 40px rgba(192,57,43,.8)}}
+.ctgl:hover{transform:scale(1.08);}
+.cbox{position:absolute;bottom:64px;right:0;width:300px;background:var(--navy2);border:1px solid rgba(192,57,43,.25);box-shadow:0 18px 52px rgba(0,0,0,.7);display:none;flex-direction:column;overflow:hidden;}
+.cbox.open{display:flex;}
+.ch{background:var(--red);padding:14px 16px;display:flex;align-items:center;gap:10px;}
+.chav{width:30px;height:30px;background:rgba(0,0,0,.2);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:14px;}
+.ch h4{font-size:13px;font-weight:600;color:white;}
+.ch p{font-size:10px;color:rgba(255,255,255,.7);}
+.cms{padding:14px;height:220px;overflow-y:auto;display:flex;flex-direction:column;gap:10px;}
+.cms::-webkit-scrollbar{width:3px;}
+.cms::-webkit-scrollbar-thumb{background:var(--red);}
+.cmsg{max-width:88%;padding:9px 13px;font-size:12px;line-height:1.6;}
+.cmsg.bot{background:var(--navy);color:var(--cream);align-self:flex-start;border-left:2px solid var(--red);}
+.cmsg.user{background:var(--red);color:white;align-self:flex-end;font-weight:500;}
+.cmsg.typ{background:var(--navy);align-self:flex-start;border-left:2px solid var(--red);color:var(--muted);font-style:italic;}
+.qrs{padding:0 14px 10px;display:flex;flex-wrap:wrap;gap:5px;}
+.qb{background:transparent;border:1px solid rgba(192,57,43,.3);color:var(--red2);padding:5px 9px;font-size:10px;cursor:pointer;transition:all .2s;font-family:'Outfit',sans-serif;}
+.qb:hover{background:rgba(192,57,43,.1);}
+.cin{padding:10px;border-top:1px solid rgba(192,57,43,.15);display:flex;gap:6px;}
+.cin input{flex:1;background:var(--navy);border:1px solid rgba(192,57,43,.2);color:var(--cream);padding:8px 11px;font-family:'Outfit',sans-serif;font-size:12px;outline:none;}
+.cin input:focus{border-color:var(--red);}
+.csnd{background:var(--red);border:none;color:white;padding:8px 13px;font-size:13px;cursor:pointer;}
+
+/* ANIMATIONS */
+@keyframes fu{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:translateY(0)}}
+.badge{animation:fu .6s .1s both;}
+.hero-title{animation:fu .7s .2s both;}
+.hdiv{animation:fu .5s .3s both;}
+.hero-sub{animation:fu .6s .4s both;}
+.hbtns{animation:fu .6s .5s both;}
+.trust{animation:fu .6s .6s both;}
+
+/* MOBILE */
+@media(max-width:768px){
+  nav{padding:14px 16px;}
+  .nav-links{display:none;}
+  .hero{grid-template-columns:1fr;}
+  .hero-right{display:none;}
+  .hero-left{padding:100px 18px 52px;}
+  .sec{padding:60px 18px;}
+  .sg,.cg,.tg{grid-template-columns:1fr;}
+  .wg{grid-template-columns:1fr;}
+  .wl{display:none;}
+  .cw{grid-template-columns:1fr;}
+  footer{flex-direction:column;padding:28px 18px;text-align:center;}
+  .fr2{grid-template-columns:1fr;}
+  .trust{flex-wrap:wrap;gap:16px;}
+}
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="logo">Verma <span>&</span> Associates<small>Criminal Law Specialists — Bhopal</small></div>
+  <ul class="nav-links">
+    <li><a href="#services">Services</a></li>
+    <li><a href="#why">Kyun Hum</a></li>
+    <li><a href="#cases">Cases</a></li>
+    <li><a href="#reviews">Reviews</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <button class="nav-cta" onclick="document.getElementById('contact').scrollIntoView({behavior:'smooth'})">Free Consultation</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-left">
+    <div class="badge">Bhopal ka Sabse Bharosemand Criminal Vakeel</div>
+    <h1 class="hero-title">
+      Jab Zindagi
+      <span class="it">Daa'v Par Ho —</span>
+      Hum Hain.
+    </h1>
+    <div class="hdiv"></div>
+    <p class="hero-sub">
+      Bhopal High Court mein <strong>20+ saal ka anubhav.</strong>
+      Criminal cases mein <strong>95% success rate.</strong>
+      FIR se bail tak — har kadam par aapke saath.
+    </p>
+    <div class="hbtns">
+      <a href="#contact" class="btn-r">📞 Free Consultation Lo</a>
+      <a href="#cases" class="btn-o">Hamari Victories →</a>
+    </div>
+    <div class="trust">
+      <div><div class="tn">20+</div><div class="tl">Saal Tajurba</div></div>
+      <div class="tsep"></div>
+      <div><div class="tn">1,200+</div><div class="tl">Cases Jeete</div></div>
+      <div class="tsep"></div>
+      <div><div class="tn">95%</div><div class="tl">Success Rate</div></div>
+      <div class="tsep"></div>
+      <div><div class="tn">24/7</div><div class="tl">Available</div></div>
+    </div>
+  </div>
+  <div class="hero-right">
+    <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=900&q=80" alt="Verma Associates Bhopal">
+    <div class="rov">
+      <div class="rot">Hamari Specializations</div>
+      <div class="roi"><span class="roi-ic">🔓</span>&nbsp; Bail &amp; Anticipatory Bail</div>
+      <div class="roi"><span class="roi-ic">📄</span>&nbsp; FIR Quashing</div>
+      <div class="roi"><span class="roi-ic">👨‍⚖️</span>&nbsp; Sessions Court Defence</div>
+      <div class="roi"><span class="roi-ic">🏛️</span>&nbsp; High Court Appeals</div>
+      <div class="roi"><span class="roi-ic">📋</span>&nbsp; NDPS &amp; Cyber Cases</div>
+      <div class="rof">✅ Pehli Consultation FREE</div>
+    </div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker">
+  <div class="tick-in">
+    <span class="tick-item">Bail Cases</span>
+    <span class="tick-item">FIR Quashing</span>
+    <span class="tick-item">Criminal Appeals</span>
+    <span class="tick-item">High Court Bhopal</span>
+    <span class="tick-item">NDPS Defence</span>
+    <span class="tick-item">Sessions Court</span>
+    <span class="tick-item">Anticipatory Bail</span>
+    <span class="tick-item">Cyber Crime</span>
+    <span class="tick-item">Bail Cases</span>
+    <span class="tick-item">FIR Quashing</span>
+    <span class="tick-item">Criminal Appeals</span>
+    <span class="tick-item">High Court Bhopal</span>
+    <span class="tick-item">NDPS Defence</span>
+    <span class="tick-item">Sessions Court</span>
+    <span class="tick-item">Anticipatory Bail</span>
+    <span class="tick-item">Cyber Crime</span>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section class="sec" id="services">
+  <div class="sl">What We Handle</div>
+  <h2 class="st">Hamari Criminal Law <em>Specializations</em></h2>
+  <div class="sg">
+    <div class="sc"><div class="sn">01</div><div class="si">🔓</div><div class="sname">Bail &amp; Anticipatory Bail</div><p class="sdesc">Arrest se pehle ya baad — hum turant bail application file karte hain. Emergency mein 24 ghante available hain.</p></div>
+    <div class="sc"><div class="sn">02</div><div class="si">📄</div><div class="sname">FIR Quashing</div><p class="sdesc">Jhoothi ya galat FIR? High Court mein petition file karke aapko is mushkil se nikaalte hain.</p></div>
+    <div class="sc"><div class="sn">03</div><div class="si">🏛️</div><div class="sname">Sessions &amp; High Court</div><p class="sdesc">Bhopal Sessions Court aur MP High Court mein 20+ saal ka extensive courtroom experience.</p></div>
+    <div class="sc"><div class="sn">04</div><div class="si">💊</div><div class="sname">NDPS / Drug Cases</div><p class="sdesc">NDPS Act ke tehat cases mein strong defence. Bail aur acquittal ke liye expert legal strategy.</p></div>
+    <div class="sc"><div class="sn">05</div><div class="si">💻</div><div class="sname">Cyber Crime Defence</div><p class="sdesc">Online fraud, IT Act cases, social media FIR — digital criminal cases mein expert representation.</p></div>
+    <div class="sc"><div class="sn">06</div><div class="si">🏢</div><div class="sname">White Collar Crime</div><p class="sdesc">Fraud, forgery, cheating cases mein corporate aur individual clients ka expert defence.</p></div>
+  </div>
+</section>
+
+<!-- WHY US -->
+<section class="sec why" id="why">
+  <div class="wg">
+    <div class="wl">
+      <img src="https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=600&q=80" alt="Adv Verma">
+    </div>
+    <div>
+      <div class="sl">Hume Kyun Chunein</div>
+      <h2 class="st">Sirf Ek Chance Hota Hai — <em>Sahi Vakeel Chunna Zaroori</em></h2>
+      <div class="wp-list">
+        <div class="wp"><div class="wp-ic">⚡</div><div><div class="wp-t">Emergency Mein 24/7 Available</div><div class="wp-d">Raat ko arrest hua? Weekend hai? Koi baat nahi — hum hamesha phone uthate hain.</div></div></div>
+        <div class="wp"><div class="wp-ic">🏛️</div><div><div class="wp-t">MP High Court Mein Strong Presence</div><div class="wp-d">20+ saal se Bhopal High Court mein regularly practice — deep knowledge of local judiciary.</div></div></div>
+        <div class="wp"><div class="wp-ic">🤝</div><div><div class="wp-t">Pehle Suno, Phir Salah Do</div><div class="wp-d">Har case unique hota hai. Hum poori baat sunte hain — phir strategy banate hain.</div></div></div>
+        <div class="wp"><div class="wp-ic">💰</div><div><div class="wp-t">Fees Mein Poori Transparency</div><div class="wp-d">Koi hidden charges nahi. Shuru mein hi sab kuch clear — no surprises kabhi nahi.</div></div></div>
+      </div>
+      <a href="#contact" class="btn-r">Abhi Baat Karo — FREE Hai</a>
+    </div>
+  </div>
+</section>
+
+<!-- CASES -->
+<section class="sec" id="cases">
+  <div class="sl">Track Record</div>
+  <h2 class="st">Kuch <em>Notable Victories</em></h2>
+  <div class="cg">
+    <div class="cc"><div class="cv">✓ Acquitted</div><div class="ct">NDPS Case — 10 Saal Ki Saza Se Bachaya</div><p class="cd">Client par 10 saal ki saza ka aarop tha. Hamne prosecution ki evidence mein gaps dhundhe aur complete acquittal dilwayi.</p><div class="cm2"><span>Sessions Court, Bhopal</span><span>2024</span></div></div>
+    <div class="cc"><div class="cv">✓ Bail Granted</div><div class="ct">Anticipatory Bail — Giraftaari Se 6 Ghante Pehle</div><p class="cd">Galat FIR thi. 6 ghante mein anticipatory bail file ki — same day High Court se relief mila.</p><div class="cm2"><span>MP High Court</span><span>2024</span></div></div>
+    <div class="cc"><div class="cv">✓ FIR Quashed</div><div class="ct">Business Dispute Mein Jhoothi FIR Khatam</div><p class="cd">Business partner ne jhoothi FIR darj ki thi. Court mein sabot rakhe — FIR completely quash hui.</p><div class="cm2"><span>MP High Court</span><span>2023</span></div></div>
+  </div>
+</section>
+
+<!-- REVIEWS -->
+<section class="sec tw" id="reviews">
+  <div class="sl">Client Reviews</div>
+  <h2 class="st">Unke Alfaaz — <em>Jinki Zindagi Badli</em></h2>
+  <div class="tg">
+    <div class="tc2"><div class="tq">"</div><div class="ts2">★★★★★</div><p class="tt">Raat 11 baje phone kiya — Adv. Verma ne turant uthaya. Subah tak meri bail ho gayi. Bhopal mein aisa vakeel doosra nahi milega.</p><div class="ta"><div class="tav">R</div><div><div class="tan">Ramesh Patel</div><div class="tat">Bail Case · 2024</div></div></div></div>
+    <div class="tc2"><div class="tq">"</div><div class="ts2">★★★★★</div><p class="tt">Mere bete par NDPS ka case tha. Verma sahab ne case jeeta aur humari zindagi wapas di. Dil se shukriya.</p><div class="ta"><div class="tav">S</div><div><div class="tan">Savita Sharma</div><div class="tat">NDPS Case · 2024</div></div></div></div>
+    <div class="tc2"><div class="tq">"</div><div class="ts2">★★★★★</div><p class="tt">Partner ne jhoothi FIR darj ki — 2 saal se pareshaan tha. 3 mahine mein FIR quash karwayi. Best in Bhopal!</p><div class="ta"><div class="tav">A</div><div><div class="tan">Arun Mishra</div><div class="tat">FIR Quashing · 2023</div></div></div></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="cw">
+    <div class="cl">
+      <div class="clt">Pehli Mulaqaat <em>Bilkul FREE</em> Hai</div>
+      <p class="cls">Apna case batao — hum sunenge, samjhenge, aur sahi raasta dikhayenge. Koi pressure nahi, koi hidden fees nahi.</p>
+      <div class="cd2"><div class="ci2">📍</div><div><div class="cdl">Office</div><div class="cdv">12, High Court Road, Near MP High Court, Bhopal - 462001</div></div></div>
+      <div class="cd2"><div class="ci2">📞</div><div><div class="cdl">Call / WhatsApp</div><div class="cdv">+91 98930 XXXXX</div></div></div>
+      <div class="cd2"><div class="ci2">⏰</div><div><div class="cdl">Timings</div><div class="cdv">Mon–Sat 9AM–7PM · Emergency 24/7</div></div></div>
+      <div class="cd2"><div class="ci2">🗣️</div><div><div class="cdl">Languages</div><div class="cdv">Hindi · English · Urdu</div></div></div>
+    </div>
+    <div class="cr">
+      <div class="frt">Apna Case Batao</div>
+      <p class="frs">Form bharein — 2 ghante mein callback guaranteed.</p>
+      <div class="fr2">
+        <div class="fg"><label>Aapka Naam</label><input type="text" placeholder="Poora naam"></div>
+        <div class="fg"><label>Phone Number</label><input type="tel" placeholder="+91 XXXXX XXXXX"></div>
+      </div>
+      <div class="fg"><label>Case ka Type</label>
+        <select>
+          <option>Case chunein...</option>
+          <option>Bail / Anticipatory Bail</option>
+          <option>FIR Quashing</option>
+          <option>NDPS Case</option>
+          <option>Sessions Court</option>
+          <option>High Court Appeal</option>
+          <option>Cyber Crime</option>
+          <option>White Collar Crime</option>
+          <option>Doosra</option>
+        </select>
+      </div>
+      <div class="fg"><label>Case ki Jankari</label><textarea placeholder="Thodi si baat karein apne case ke baare mein..."></textarea></div>
+      <button class="bsub" onclick="this.textContent='✓ Bhej Diya! 2 ghante mein call aayegi.';this.style.background='#1a5c1a';">FREE Consultation Book Karein</button>
+      <p class="fn">🔒 Aapki jaankari poori tarah gupt rahegi. Attorney-client privilege guaranteed.</p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="fl">Verma <span>&</span> Associates</div>
+  <p class="fc">© 2025 Verma &amp; Associates. All rights reserved.<br>Bar Council of MP Reg. No. MP/2003/BPL/1847</p>
+  <ul class="flinks"><li><a href="#">Privacy</a></li><li><a href="#">Disclaimer</a></li><li><a href="#">Bar Council Rules</a></li></ul>
+</footer>
+
+<!-- WHATSAPP FLOATING BUTTON -->
+<a class="wa-btn" href="https://wa.me/919893000000" target="_blank">
+  💬 WhatsApp Par Poochho
+</a>
+
+<!-- CHATBOT -->
+<div class="cbt">
+  <div class="cbox" id="cbox">
+    <div class="ch">
+      <div class="chav">⚖️</div>
+      <div><h4>Legal Helpdesk</h4><p>Online · Abhi jawab milega</p></div>
+    </div>
+    <div class="cms" id="cms">
+      <div class="cmsg bot">Namaste! 🙏 Verma &amp; Associates mein swagat hai. Kya aapko criminal case mein madad chahiye?</div>
+    </div>
+    <div class="qrs" id="qrs">
+      <button class="qb" onclick="sq('Bail chahiye urgently')">🔓 Bail</button>
+      <button class="qb" onclick="sq('FIR quash karwani hai')">📄 FIR Quash</button>
+      <button class="qb" onclick="sq('Fees kitni hai')">💰 Fees</button>
+      <button class="qb" onclick="sq('Consultation book karni hai')">📅 Book</button>
+    </div>
+    <div class="cin">
+      <input id="ci" placeholder="Sawaal likhein..." onkeydown="if(event.key==='Enter')sm()">
+      <button class="csnd" onclick="sm()">➤</button>
+    </div>
+  </div>
+  <button class="ctgl" onclick="tc()" id="ctb">💬</button>
+</div>
+
+<script>
+var op=false;
+function tc(){op=!op;document.getElementById('cbox').classList.toggle('open',op);document.getElementById('ctb').textContent=op?'✕':'💬';}
+var R={
+  bail:'Haan! Emergency bail cases 24/7 handle karte hain. Abhi call karein: +91 98930 XXXXX 📞',
+  fir:'FIR quashing ke liye High Court mein petition file karte hain. FREE consultation mein case sunenge. 📋',
+  fees:'Pehli 30-minute consultation bilkul FREE hai. Fees case type par depend — koi hidden charges nahi! 💰',
+  consult:'Call karein: +91 98930 XXXXX ya form bharein. 2 ghante mein callback guaranteed! 📅',
+  def:'Sabse behtar ek call pe baat karein. +91 98930 XXXXX — pehli baat FREE hai. 🙏'
+};
+function gr(m){
+  var t=m.toLowerCase();
+  if(t.indexOf('bail')>=0)return R.bail;
+  if(t.indexOf('fir')>=0||t.indexOf('quash')>=0)return R.fir;
+  if(t.indexOf('fee')>=0||t.indexOf('kitni')>=0)return R.fees;
+  if(t.indexOf('consult')>=0||t.indexOf('book')>=0)return R.consult;
+  return R.def;
+}
+function am(txt,cls){
+  var d=document.getElementById('cms');
+  var el=document.createElement('div');
+  el.className='cmsg '+cls;el.textContent=txt;
+  d.appendChild(el);d.scrollTop=d.scrollHeight;return el;
+}
+function sm(){
+  var inp=document.getElementById('ci');
+  var v=inp.value.trim();if(!v)return;
+  am(v,'user');inp.value='';
+  document.getElementById('qrs').style.display='none';
+  var t=am('Likh raha hoon...','typ');
+  setTimeout(function(){t.remove();am(gr(v),'bot');},700);
+}
+function sq(t){document.getElementById('ci').value=t;sm();}
+</script>
+</body>
+</html>
